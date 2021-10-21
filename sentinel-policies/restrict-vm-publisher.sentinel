@@ -8,7 +8,7 @@ import "tfplan-functions" as plan
 # List of allowed publishers
 # Include "null" to allow missing or computed values
 allowed_publishers = ["RedHat", "Canonical", "MicrosoftWindowsServer"]
-
+#allowed_publishers = ["RedHat", "Canonical"]
 # Get all Azure VMs using azurerm_virtual_machine
 allAzureVMs = plan.find_resources("azurerm_virtual_machine")
 

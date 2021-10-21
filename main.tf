@@ -7,7 +7,7 @@ terraform {
       #version = ">= 2.0" # Optional but recommended in production
     }
   }
-}
+
 
 provider "azurerm" {
   features {}
@@ -39,7 +39,7 @@ terraform {
 
 ###
 
-terraform {
+
   backend "remote" {
     organization = "azure-test-environment"
 

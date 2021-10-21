@@ -8,11 +8,6 @@ terraform {
     }
   }
 
-}
-provider "azurerm" {
-  features {}
-}
-
 backend "remote" {
     organization = "azure-test-environment"
 
@@ -20,3 +15,8 @@ backend "remote" {
       name = "sentinel-azure-demo1"
     }
   }
+}
+provider "azurerm" {
+  features {}
+}
+

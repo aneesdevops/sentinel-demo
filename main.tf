@@ -12,7 +12,7 @@ backend "remote" {
     organization = "azure-test-environment"
 
     workspaces {
-      name = "sentinel-azure-demo1"
+      name = "sentinel-azure-demo2"
     }
   }
 }

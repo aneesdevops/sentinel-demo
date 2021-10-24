@@ -22,4 +22,3 @@ provider "azurerm" {
 
 # my test comment1
 # my comment on main branch
-# feature2

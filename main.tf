@@ -19,7 +19,3 @@ backend "remote" {
 provider "azurerm" {
   features {}
 }
-
-# my test comment1
-# my comment on main branch
-
